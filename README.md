@@ -6,7 +6,7 @@ Capstone project analyzing Falcon 9 launch data from the SpaceX API. Conducted d
 
 ## 1. Data Collection Stage
 
-        In this stage, I collected data for the project using various methods and tools.
+In this stage, I collected data for the project using various methods and tools.
 
 ### 🔹 Steps followed:
 1. Identified reliable data sources related to the project objective.
@@ -20,5 +20,22 @@ Capstone project analyzing Falcon 9 launch data from the SpaceX API. Conducted d
 - **Requests & BeautifulSoup** (for API calls & web scraping)
 - **Pandas** (for data handling)
 - **Git & GitHub** (for version tracking)
+
+---
+
+## 2. Data Wrangling Stage
+
+In this stage, I cleaned and structured the collected data to prepare it for analysis and model training.
+
+#### Steps Followed:
+1. Loaded the dataset into a Pandas DataFrame and reviewed its structure using overview methods (`info()`, `describe()`, etc.).  
+2. Detected and handled missing or inconsistent values to ensure data quality.  
+3. Used `value_counts()` to examine categorical distributions and understand class balance.  
+4. Created new training labels derived from existing columns for classification purposes.  
+5. Exported the cleaned and labeled dataset for use in the EDA stage.
+
+#### Tools and Libraries Used:
+- Python, Pandas, NumPy  
+- Git & GitHub (for version tracking)
 
 ---
